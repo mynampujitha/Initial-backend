@@ -1,0 +1,4 @@
+app.get("/health", (req, res) => res.send("OK"));
+@app.route("/health")
+def health():
+    return "OK"
